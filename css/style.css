@@ -24,6 +24,24 @@ body {
     -webkit-text-shadow: 0 0 15px #8ba63a;
     -moz-text-shadow: 0 0 15px #8ba63a;
 }
+.how-does-it-work {
+    font-size: 45px;
+    color: #ecf2da;
+    font-style: italic;
+    position: absolute;
+    top: 438px;
+    left: 50px;
+}
+.contact-us {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    color: #56594d;
+    font-style: italic;
+}
+.contact-us a {
+    color: #6e8c15;
+}
 
 .slogan2 {
     color: #56594d;
@@ -36,6 +54,7 @@ body {
     text-align: center;
 }
 .how-to-use .one-quater {
+    color: #56594c;
     width: 170px;
     padding-left: 50px;
     height: 150px;
@@ -64,7 +83,6 @@ body {
 .order-form {
     background: url("../images/order-form.png") no-repeat center top;
     height: 500px;
-    margin-top: 30px;
     border-bottom: 1px solid #b8bfa3;
     padding-bottom: 30px;
 }
@@ -73,7 +91,9 @@ body {
     height: 500px;
     display: inline-block;
     vertical-align: top;
+    position: relative;
 }
+
 .order-form .submit-order {
     width: 230px;
     padding-left: 70px;
@@ -81,17 +101,34 @@ body {
     display: inline-block;
     vertical-align: top;
 }
+
 .green-title {
     padding-top: 90px;
     font-size: 25px;
     font-style: italic;
     color: #7a9626;
 }
-
+.price {
+    position: absolute;
+    right: 43px;
+    top: 72px;
+    font-size: 20px;
+    color: #f8ffd0;
+    font-style: italic;
+}
+.price .old-price {
+    text-decoration: line-through;
+    font-size: 18px;
+}
+.price .new-price {
+    color: #ecf2da;
+    font-size: 29px;
+}
 .profits .green-title {
     margin-left: 50px;
     height: 80px;
 }
+
 .profit-list {
     padding-left: 25px;
 }
