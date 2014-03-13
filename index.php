@@ -52,6 +52,7 @@ get_header(); ?>
                 <li>Экономия Вашего семейного бюджета<br/> по сравнению с другими способами</li>
                 <li>Возможность применения на любых<br/>  проблемных зонах</li>
             </ul>
+            <div class="know-more"><a class="btn" href="http://xn----7sblrbeqckhijq0a6f1dsb.xn--p1ai/">Узнать больше</a></div>
         </div>
         <div class="submit-order">
             <div class="green-title">
@@ -60,14 +61,13 @@ get_header(); ?>
             <div>
                 <label class="f-label">ФИО</label>
                 <input class="f-text" type="text" name="name" placeholder="Иванова Мария Сергеевна"/>
-                <label class="f-label">Город</label>
-                <input class="f-text" type="text" name="city" placeholder="Москва"/>
                 <label class="f-label">Полный адрес (с индексом)</label>
-                <input class="f-text" type="text" name="fulladdress" placeholder="123456, Россия, Москва, ул. Довата"/>
+                <input class="f-text" type="text" name="fulladdress" placeholder="142456, Москва, ул. Мира, д. 3, кв. 11"/>
                 <label class="f-label">Телефон</label>
                 <input class="f-text" type="text" name="phone" placeholder="89123456789"/>
             </div>
 
+            <div class="align-center"><a class="btn" href="http://xn----7sblrbeqckhijq0a6f1dsb.xn--p1ai/">Заказать</a></div>
         </div>
     </div>
 

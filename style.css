@@ -184,6 +184,7 @@ body {
     line-height: 16px;
     font-size: 16px;
     padding-left: 40px;
+    vertical-align: top;
 }
 .footer .copyright {
     background: url('images/copyright-bg.png') 0 0 no-repeat;
@@ -191,4 +192,33 @@ body {
 
 .footer .restrictions {
     background: url('images/restrictions-bg.png') 0 0 no-repeat;
+}
+
+.btn {
+    height: 52px;
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+    color: #f2f6e5;
+    background: url('images/btn.png') 0 0 repeat-x;
+    border-radius: 20px;
+    text-shadow: -1px -1px 0 #333;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-position: 0 -60px;
+}
+
+.know-more {
+    padding-left: 150px;
+}
+.align-center {
+    text-align: center;
+    padding: 20px 0;
 }
