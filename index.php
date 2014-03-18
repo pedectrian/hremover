@@ -13,7 +13,7 @@
  * @subpackage Twenty_Fourteen
  * @since Twenty Fourteen 1.0
  */
-
+global $corder;
 get_header(); ?>
 
     <div class="how-to-use">
@@ -58,16 +58,8 @@ get_header(); ?>
             <div class="green-title">
                 Заказать доставку
             </div>
-            <div>
-                <label class="f-label">ФИО</label>
-                <input class="f-text" type="text" name="name" placeholder="Иванова Мария Сергеевна"/>
-                <label class="f-label">Полный адрес (с индексом)</label>
-                <input class="f-text" type="text" name="fulladdress" placeholder="142456, Москва, ул. Мира, д. 3, кв. 11"/>
-                <label class="f-label">Телефон</label>
-                <input class="f-text" type="text" name="phone" placeholder="89123456789"/>
-            </div>
+            <?php $corder->getOrderForm(); ?>
 
-            <div class="align-center"><a class="btn" href="http://xn----7sblrbeqckhijq0a6f1dsb.xn--p1ai/">Заказать</a></div>
         </div>
     </div>
 

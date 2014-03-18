@@ -195,7 +195,6 @@ body {
 }
 
 .btn {
-    height: 52px;
     display: inline-block;
     padding: 8px 20px;
     font-size: 21px;
@@ -209,6 +208,11 @@ body {
     line-height: 30px;
     cursor: pointer;
     text-decoration: none;
+}
+
+button.btn {
+    height: 50px;
+    border: none;
 }
 
 .btn:hover {
