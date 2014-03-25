@@ -39,7 +39,7 @@
         <div class="slogan2">Hair Remover — это уникальное средство <br/> для удаления волос с различных участков тела</div>
         <div class="contact-us">
             <span>Задать вопрос:</span><br />
-            <a href="mailto:moscow@hair-remover.ru">moscow@hair-remover.ru</a>
+            <a href="mailto:info@hair-remover-shop.ru">info@hair-remover-shop.ru</a>
         </div>
         <div class="how-does-it-work">Как это работает?</div>
     </div>
