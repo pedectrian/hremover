@@ -226,3 +226,7 @@ button.btn {
     text-align: center;
     padding: 20px 0;
 }
+
+.ui-state-error {
+    border: 1px solid red;
+}
