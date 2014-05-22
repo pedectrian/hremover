@@ -39,7 +39,7 @@ get_header(); ?>
     <div class="order-form">
         <div class="profits">
 <!--            <div class="price">-->
-<!--                <span>Цена:</span><!--span class="old-price"> 3 200 руб</span--><br />-->
+<!--                <span>Цена:</span><span class="old-price"> 3 200 руб</span><br />-->
 <!--                <span class="new-price">3500 руб</span>-->
 <!--            </div>-->
             <div class="green-title">
